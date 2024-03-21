@@ -1,29 +1,32 @@
 # Live Chat Application
 
-This is a simple live chat application built using [Node.js](https://nodejs.org/) and [Socket.io](https://socket.io/) for real-time communication. Users can join chat rooms, send messages, and view messages from other users in real time.
+This is a simple live chat application built using [Node.js](https://nodejs.org/) and [Socket.io](https://socket.io/) and [React](https://react.dev/) and [MongoDB](https://www.mongodb.com/) for real-time communication. Users can join chat rooms, send messages, and view messages from other users in real time. The logs of the Chats are stored in a MongoDB database.
 
 ## Features
 
 - **Real-time Communication:** Messages are delivered instantly using Socket.io for real-time communication.
 - **Multiple Chat Rooms:** Users can join different chat rooms and engage in discussions based on their interests or topics.
 - **User Authentication:** Users can sign up, log in, and participate in the chat using their unique credentials.
-- **Responsive Design:** The application is designed to be responsive and accessible across different devices and screen sizes.
 
 ## Installation
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/live-chat.git
+    git clone https://github.com/NassimNimo/Chat-live
     ```
 
-2. Navigate to the project directory:
+2. Navigate to the project directories and start the front-end and back-end:
 
     ```bash
-    cd live-chat
+    cd client
+
+    or
+
+    cd ../server
     ```
 
-3. Install dependencies:
+3. Install dependencies for each one with:
 
     ```bash
     npm install
@@ -37,9 +40,12 @@ This is a simple live chat application built using [Node.js](https://nodejs.org/
     PORT=3000
     ```
 
-5. Start the server:
+5. Start the servers:
 
     ```bash
+    cd client
+    npm start
+    cd ../server
     npm start
     ```
 
@@ -56,15 +62,3 @@ This is a simple live chat application built using [Node.js](https://nodejs.org/
 4. **Leave Chat Room:** You can leave the chat room at any time and join another room or create a new one.
 
 5. **Logout:** When you're done, log out from your account to securely end your session.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize and modify this README according to your specific application's features and requirements.
