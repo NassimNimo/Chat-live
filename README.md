@@ -1,6 +1,6 @@
 # Live Chat Application
 
-This is a simple live chat application built using [Node.js](https://nodejs.org/) and [Socket.io](https://socket.io/) and [React](https://react.dev/) and [MongoDB](https://www.mongodb.com/) for real-time communication. Users can join chat rooms, send messages, and view messages from other users in real time. The logs of the Chats are stored in a MongoDB database.
+This is a simple live chat application built using [Node.js](https://nodejs.org/), [Socket.io](https://socket.io/), [React](https://react.dev/) and [MongoDB](https://www.mongodb.com/) for real-time communication. Users can join chat rooms, send messages, and view messages from other users in real time. The logs of the Chats are stored in a MongoDB database.
 
 ## Features
 
