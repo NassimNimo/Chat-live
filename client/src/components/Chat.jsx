@@ -5,7 +5,6 @@ import { FaUserAlt } from "react-icons/fa";
 import { IoMdSettings } from "react-icons/io";
 import { CgLogOut } from "react-icons/cg";
 import ScrollToBottom from "react-scroll-to-bottom";
-import { Socket } from "socket.io-client";
 
 function Chat({ socket, userName, setLogged, setUserName }) {
   const [currentMessage, setCurrentMessage] = useState("");
