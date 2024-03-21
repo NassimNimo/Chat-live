@@ -16,23 +16,18 @@ This is a simple live chat application built using [Node.js](https://nodejs.org/
     git clone https://github.com/NassimNimo/Chat-live
     ```
 
-2. Navigate to the project directories and start the front-end and back-end:
+2. Navigate to the project directories and start the front-end and back-end AND install dependencies for each one with::
 
     ```bash
     cd client
-
-    or
+    npm install
 
     cd ../server
-    ```
-
-3. Install dependencies for each one with:
-
-    ```bash
     npm install
+
     ```
 
-4. Set up environment variables:
+3. Set up environment variables:
    
     Create a `.env` file in the root directory and add the following variables:
 
@@ -40,7 +35,7 @@ This is a simple live chat application built using [Node.js](https://nodejs.org/
     PORT=3000
     ```
 
-5. Start the servers:
+4. Start the servers:
 
     ```bash
     cd client
@@ -49,7 +44,7 @@ This is a simple live chat application built using [Node.js](https://nodejs.org/
     npm start
     ```
 
-6. Open your web browser and navigate to `http://localhost:3000` to access the application.
+5. Open your web browser and navigate to `http://localhost:3000` to access the application.
 
 ## Usage
 
